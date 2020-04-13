@@ -1,0 +1,864 @@
+/* start pages container
+#pages
+  #book-now
+    +g3
+    margin-top: -54px
+    padding: 100px 0 50px 0
+    @media (max-width: 790px)
+      margin-top: 0
+    h1
+      +font1
+      font-size: 22px
+      font-weight: 600
+      margin: 0
+      padding: 0
+    p
+      +font1
+      color: $color2
+      font-size: 12px
+      margin: 0
+      padding: 20px 0 0 0
+    .btn
+      float: right
+      margin-top: 30px
+      font-size: 18px
+      padding: 10px 40px
+      @media (max-width: 790px)
+        float: left
+  #dir
+    +g4
+    border-top: 1px solid #e5e4e4
+    border-bottom: 1px solid #e5e4e4
+    padding: 14px 0
+    p
+      margin: 0
+      +font1
+    .left
+      p
+        font-weight: 600
+    .right
+      p
+        text-align: right
+        @media (max-width: 790px)
+          text-align: left
+  #google-map
+    margin-top: -55px
+    padding: 0
+    background-image: -webkit-linear-gradient( 0deg, rgb(54,47,102) 0%, rgba(52,152,218,0) 100%)
+    @media (max-width: 790px)
+      margin-top: auto
+    #map
+      padding: 0
+      margin: 0
+      width: 100%
+      height: 600px
+      opacity: 0.7
+      border: 0
+      border-radius: 0
+/* end pages container
+
+/* start about page
+#about-us
+  #word
+    +s1
+    .slide
+      .owl-carousel
+        position: relative
+        .owl-stage-outer
+          border-radius: 5px
+        .item
+          height: 300px
+          img
+            height: 100%
+            border-radius: 5px
+        .owl-nav
+          position: absolute
+          top: 275px
+          right: 15px
+          text-align: right
+          .owl-prev , .owl-next
+            margin: 0
+            background-color: #fff
+            color: $color1
+            text-transform: capitalize
+            +sh1
+            &:hover
+              color: $color4
+          .owl-prev
+            border-top-right-radius: 0
+            border-bottom-right-radius: 0
+            border-right: 1px solid $color3
+          .owl-next
+            border-top-left-radius: 0
+            border-bottom-left-radius: 0
+    .list
+      .mylist
+        display: flex
+        margin-top: 20px
+        ul
+          margin: 0
+          padding: 0
+          li
+            list-style: none
+            margin: 0
+            padding: 0
+            display: flex
+            i.fa
+              color: $color4
+              margin-top: 4px
+              margin-right: 10px
+            p
+              margin-bottom: 10px
+        .left
+          flex: 1
+        .right
+          flex: 1
+      h1
+        +font1
+        font-size: 22px
+        font-weight: 600
+        margin: 0 0 20px 0
+      p
+        +font1
+        font-size: 13px
+        line-height: 24px
+        margin: 0
+  #meat
+  #numbers
+    text-align: center
+    +s1
+    +g1
+    h1
+      color: #fff
+      +font1
+      font-family: 'Raleway'
+      font-size: 20px
+      font-weight: 600
+      text-transform: uppercase
+    .divider
+      background-color: #fff
+      padding: 0.3px 1px
+      margin: 20px 110px
+    p
+      color: #fff
+      +font1
+      font-size: 12px
+      line-height: 20px
+      margin-top: 20px
+/* end about page
+
+/* start services page
+#services
+  #video
+    position: relative
+    width: 100%
+    +s1
+    background-color: $color3-
+    border-bottom: 1px solid #e4e3e3
+    .over-img
+      transition: all 0.333s
+      +g1
+      opacity: 0.1
+      border-radius: 5px
+      width: 97.4%
+      height: 100%
+      position: absolute
+    .img
+      border-radius: 5px
+      overflow: hidden
+      height: 450px
+      img
+        width: 100%
+        height: auto
+        @media (max-width: 790px)
+          height: 100%
+    a
+      outline: 0
+      &:hover , &:active , &:focus
+        outline: 0
+    .icon
+      position: absolute
+      top: 45%
+      left: 48%
+      padding: 14px 18px
+      border-radius: 50%
+      cursor: pointer
+      transition: all 0.333s
+      +g1
+      .fa
+        font-size: 60px
+        color: #fff
+    .text
+      margin-top: 40px
+      h1
+        +font1
+        font-size: 24px
+        font-weight: 700
+        margin-bottom: 20px
+      p
+        +font1
+  #what-2
+    background-color: $color3-
+    border-bottom: 1px solid #e4e3e3
+    .card
+      background-color: transparent
+      @media (max-width: 790px)
+        margin-bottom: 60px
+/* end services page
+
+/* start news section
+#news
+  .left
+    padding: 60px 0
+    border-right: 1px solid $color3
+    padding-right: 30px
+    .blog
+      height: 100%
+      margin-bottom: 60px
+      position: relative
+      &:hover
+        .over-img
+          opacity: 0.9
+      .over-img
+        width: 100%
+        height: 350px
+        background-color: #fff
+        border: 1px solid $color3
+        opacity: 0.000001
+        position: absolute
+        transition: all 0.333s
+        .blog-img
+          position: absolute
+          overflow: hidden
+          background-color: #fff
+          border-radius: 5px
+          +sh3
+          padding: 18px 20px
+          top: 45%
+          left: 45%
+          transition: all 0.333s
+          img
+            padding: 0
+            margin: 0
+            height: 20px
+            width: 20px
+      .img
+        border-radius: 5px
+        border: 1px solid $color3
+        width: 100%
+        height: 350px
+        overflow: hidden
+        margin-bottom: 30px
+        img
+          width: 100%
+      .text
+        h1
+          +font1
+          font-size: 22px
+          font-weight: 600
+        p
+          +font1
+          font-size: 13px
+          line-height: 24px
+          color: $color2
+          margin: 20px 0
+        p.bold
+          font-weight: 600
+          font-style: italic
+          color: $color1
+        p
+          a
+            color: $color4
+            font-weight: 600
+            font-style: italic
+            text-decoration: underline
+    .users
+      .auther
+        display: flex
+        padding-bottom: 30px
+        margin-bottom: 30px
+        border-bottom: 1px solid $color3
+        .lf
+          width: 80px
+          height: 80px
+          border-radius: 5px
+          overflow: hidden
+          margin-right: 20px
+          img
+            height: 100%
+        .ri
+          flex: 1
+          h1
+            +font1
+            font-weight: 600
+            font-size: 22px
+          p
+            +font1
+            font-size: 13px
+            line-height: 22px
+            color: $color2
+            margin: 0
+      .comments
+        h1.head
+          +font1
+          font-size: 22px
+          font-weight: 600
+          margin-bottom: 60px
+          margin-top: 60px
+        .comment
+          display: flex
+          margin-bottom: 60px
+          .lf
+            width: 80px
+            height: 80px
+            overflow: hidden
+            border-radius: 5px
+            margin-right: 20px
+            img
+              height: 100%
+              width: 100%
+          .ri
+            flex: 1
+            h1
+              +font1
+              font-size: 22px
+              font-weight: 600
+            p
+              +font1
+              font-size: 13px
+              line-height: 23px
+              color: $color2
+    .add
+      padding-top: 60px
+      border-top: 1px solid $color3
+      input , textarea
+        +g4
+        border: 1px solid $color3
+        border-radius: 5px
+        margin-bottom: 30px
+        padding: 16px 20px
+        width: 100%
+        color: $color4
+        transition: all 0.333s
+        &:hover , &:active , &:focus
+          outline: 0
+          box-shadow: 0 0 0
+          border: 1px solid $color4
+        text-transform: capitalize
+      .top
+        display: flex
+        .name
+          margin-right: 30px
+      a
+        font-size: 18px
+        letter-spacing: 0
+        padding: 16px 50px
+  .right
+    h1 , p , a
+      +font1
+      text-decoration: none
+    h1
+      font-size: 24px
+      font-weight: 600
+    .sidbar
+      padding: 60px 0
+      .search
+        .input-group
+          margin-top: 30px
+          margin-bottom: 60px
+          button
+            border: 1px solid $color3
+            border-left: 0
+            +g3
+            padding: 18px 22px
+            cursor: pointer
+            transition: all 0.333s
+            &:hover , &:active , &:focus
+              outline: 0
+              color: $color4
+          input
+            padding: 14px 20px
+            border: 1px solid $color3
+            +font1
+            color: $color4
+            +g3
+      .cat
+        margin-bottom: 60px
+        h1
+          margin-bottom: 30px
+        ul
+          padding: 0
+          li
+            list-style: none
+            display: flex
+            padding: 10px 0
+            border-bottom: 1px solid $color3
+            transition: all 0.333s
+            &:last-child
+              border: 0
+            &:hover
+              border-color: $color4
+              img
+                margin-left: 10px
+              a
+                color: $color4
+            img
+              margin-top: 5px
+              margin-right: 10px
+              width: 23px
+              height: 14px
+              transition: all 0.333s
+            a
+              color: $color1
+              text-decoration: none
+      .tags
+        margin-bottom: 60px
+        h1
+          margin-bottom: 30px
+        a
+          padding: 10px
+          color: $color1
+          transition: all 0.333s
+          &:hover
+            color: $color4
+      .recent-posts
+        .post
+          margin: 30px 0
+          display: flex
+          .img
+            height: 70px
+            width: 70px
+            border-radius: 5px
+            overflow: hidden
+            img
+              height: 100%
+              border-radius: 5px
+          .text
+            flex: 1
+            margin-left: 20px
+            h1
+              font-size: 14px
+              font-weight: 600
+              margin: 0
+              outline: 0
+            p
+              font-size: 13px
+              line-height: 22px
+/* end news section
+
+/* start shop pages
+#shop
+  margin: 80px 0 50px 0
+  #baner
+    margin-bottom: 70px
+    .baner
+      +g4
+      border-radius: 5px
+      border: 1px solid $color3
+      display: flex
+      .text
+        flex: 2
+        padding: 100px
+        h1
+          +font1
+          color: $color4
+          font-size: 35px
+          line-height: 60px
+        a.btn-link
+          padding-left: 0
+          padding-right: 0
+          padding-bottom: 4px
+          margin-top: 20px
+          border-bottom: 1px solid rgba(0,0,0,0.09)
+          transition: all 0.333s
+          &:hover
+            color: $color4
+            border-bottom: 1px solid $color4
+      .img
+        flex: 1
+        @media (max-width: 790px)
+          visibility: hidden
+  #items
+    .item
+      margin-bottom: 40px
+      .img
+        background-color: black
+        height: 300px
+        overflow: hidden
+        border-radius: 5px
+        border: 1px solid $color3
+        position: relative
+        transition: all 0.333s
+        &:hover
+          border: 1px solid $color4
+          img.cart
+            display: block
+            transition: all 0.333s
+        img.cart
+          display: none
+          position: absolute
+          bottom: 0
+          left: 0
+          width: 50px
+          height: 50px
+          border: 1px solid $color4
+          padding: 10px
+          border-top-right-radius: 5px
+          border-bottom-left-radius: 5px
+          border-left: 0
+          border-bottom: 0
+          background-color: #fff
+          transition: all 0.333s
+        img.product
+          height: 100%
+          width: 100%
+      .text
+        display: flex
+        margin-top: 20px
+        a
+          flex: 1
+          +font1
+          font-size: 20px
+          font-weight: 600
+          text-decoration: none
+          color: $color1
+          &:hover
+            color: $color4
+        p
+          +font1
+          font-weight: 600
+          color: $color4
+          font-size: 18px
+    .modal
+      button
+        right: -130px
+    .modal-content
+      margin-top: 140px
+      margin-left: -140px
+      padding: 100px 40px
+      width: 800px
+    .modal-body
+      display: flex
+      .right
+        flex: 1
+        margin-left: 30px
+        margin-top: 40px
+        h1
+          +font1
+          font-weight: 600
+          font-size: 22px
+          text-align: left
+        p
+          +font1
+          font-size: 14px
+          text-align: left
+          margin-top: 20px
+          line-height: 22px
+        a.btn-link
+          padding-left: 0
+          padding-right: 0
+          padding-bottom: 4px
+          border-bottom: 1px solid $color1
+          color: $color1
+          &:hover
+            color: $color4
+            border-bottom: 1px solid $color4
+/* end shop page
+
+/* start contact page
+#contact
+  input ,textarea
+    width: 100%
+    border: 1px solid $color3
+    +g4
+    padding: 10px 20px
+    +font1
+    margin-bottom: 20px
+    border-radius: 5px
+    color: $color4
+    &:hover , &:active , &:focus
+      outline: 0
+      box-shadow: 0 0 0
+  .form
+    border-right: 1px solid $color3
+    padding-right: 30px
+    +s1
+    .top
+      display: flex
+      input:first-child
+        margin-right: 20px
+    a
+      font-size: 14px
+      padding: 14px 40px
+  .info
+    +s1
+    .phone , .email , .ofice
+      p
+        +font1
+        padding: 0
+        margin: 0
+        color: $color2
+      h1
+        +font1
+        font-size: 22px
+        font-weight: 600
+        width: 100%
+      .text
+        display: flex
+        margin-top: 20px
+        .left
+          flex: 1
+        .right
+          flex: 1
+    .email
+      margin: 30px 0
+/* end contact page
+
+/* single doctors
+#doctors
+  #single-doc
+    +s1
+    .card
+      padding: 50px
+      background-color: rgba(252,252,252,1)
+      border: 1px solid $color3
+      .top
+        display: flex
+        .img
+          flex: 1
+          // width: 140px
+          height: 240px
+          overflow: hidden
+          border-radius: 5px
+          border: 1px solid $color3
+          img
+            width: 100%
+        .text
+          margin: 0 30px
+          flex: 2
+          padding: 20px 0
+          h1
+            +font1
+            font-size: 26px
+            font-weight: 600
+          p
+            margin-top: 20px
+            +font1
+            font-size: 13px
+            letter-spacing: 2px
+            // line-height: 20px
+            color: $color2
+        .info
+          flex: 1
+          display: flex
+          margin-top: 40px
+          p
+            +font1
+            margin-bottom: 10px
+          .left
+            flex: 1
+            p
+              font-weight: 700
+          .right
+            p
+              text-align: right
+      .bottom
+        margin-top: 60px
+        display: flex
+        .left
+          flex: 1
+          margin-right: 30px
+        .right
+          flex: 1
+        .progress-wrapper
+          margin-bottom: 30px
+          &:last-child
+            margin-bottom: 0
+          .text
+            display: flex
+            h1,p
+              +font1
+              font-weight: 600
+              margin-bottom: 8px
+            h1
+              flex: 1
+          .progress
+            background-color: #fff
+            border: 1px solid $color3
+            border-radius: 2px
+            .progress-bar
+              border-radius: 2px
+              border-top-right-radius: 0
+              border-bottom-right-radius: 0
+              height: 10px
+              padding: 0
+              +g1
+  #big-btn
+    +g1
+    .btn
+      width: 100%
+      border-radius: 0
+      padding: 60px 0
+      text-transform: uppercase
+      font-size: 24px
+      letter-spacing: 2px
+      &:hover
+        opacity: 0.5
+/* end doctors
+
+/* start price list
+#price-list
+  +s1
+  .tables
+    .card
+      display: flex
+      flex-direction: row
+      border: 0
+      border-radius: 5px
+    .table
+      padding: 40px 0
+      margin: 0
+      text-align: center
+      border: 1px solid $color3
+      +g4
+      &:first-child , &:nth-child(2) , &:nth-child(3)
+        border-right: 0
+      &:first-child
+        border-top-left-radius: 5px
+        border-bottom-left-radius: 5px
+      &:last-child
+        border-top-right-radius: 5px
+        border-bottom-right-radius: 5px
+      p
+        +font1
+        margin-bottom: 0
+      p.head
+        font-size: 18px
+        letter-spacing: 2px
+      .price
+        margin: 40px 0
+        p
+          color: $color4
+          margin-bottom: 20px
+          margin-right: 170px
+          font-size: 22px
+        h1
+          +font1
+          font-size: 80px
+          color: #3498db
+      ul.info
+        margin: 50px 0
+        padding: 0
+        li
+          list-style-type: none
+      .btn
+        padding: 10px 40px
+      transition: all 0.333s
+      &:hover
+        transform: scale(1.1)
+        border: 0
+        border-radius: 5px
+        box-shadow: 0px 0px 20px rgba(1,1,1,0.3)
+        +g2
+        p , h1 , .price>h1 , .price>p
+          color: #fff
+        .btn
+          background: #fff
+          color: $color1
+/* end price list
+
+/* start info
+#faq
+  +s1
+  #info
+    .first
+      display: flex
+      flex-direction: row
+      h1
+        +font1
+        font-size: 24px
+        font-weight: 600
+      p
+        +font1
+        flex: 1
+        margin-left: 30px
+        font-size: 13px
+        line-height: 22px
+    .text
+      p
+        +font1
+        font-size: 13px
+        line-height: 22px
+    #accordion
+      margin-top: 50px
+      .card
+        border: 0
+        margin-bottom: 10px
+        p
+          +font1
+          color: $color2
+        .card-header
+          +g4
+          border: 1px solid $color3
+          border-radius: 5px
+          a
+            +font1
+            font-weight: 600
+            color: $color1
+            text-decoration: none
+            transition: all 0.333s
+            .fa
+              padding-right: 20px
+              margin-right: 20px
+              border-right: 1px solid $color1
+            &:hover , &:active , &:focus
+              color: $color4
+              .fa
+                color: $color4
+        .collapse
+          border: 0
+/*  end info
+
+/* start galary
+#galary
+  margin: 80px 0 50px 0
+  background-color: #fff
+  .card
+    border: 0
+    border-radius: 0
+    cursor: pointer
+    transition: all 0.333s
+    position: relative
+    margin-bottom: 30px
+    &:hover
+      +sh3
+      h1
+        color: $color4
+      img
+        transform: scale(1.1)
+      .img-over
+        opacity: 0.8
+    .img-over
+      position: absolute
+      z-index: 01
+      width: 100%
+      height: 200px
+      bottom: 10
+      +g1
+      opacity: 0
+      text-align: center
+      transition: all 0.333s
+      border-radius: 5px
+      .btn
+        margin: 80px 0
+        font-size: 14px
+    .image
+      height: 200px
+      width: 100%
+      overflow: hidden
+      position: relative
+      border-radius: 5px
+      img
+        transition: all 1s
+        height: 100%
+/* end galary

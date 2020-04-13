@@ -1,0 +1,67 @@
+// start color
+$color1:  #2e2e2e
+$color2:  #939393
+$color3:  #f0f0f0
+$color3-: #f7f7f7
+$color4:  #3579b8
+$color4-: #292556
+$color5:  #3498db
+// end color
+// start gradient
+@mixin g1
+  background-image: -moz-linear-gradient( 0deg, rgb(54,0,51) 0%, rgb(52,152,219) 100%)
+  background-image: -webkit-linear-gradient( 0deg, rgb(54,0,51) 0%, rgb(52,152,219) 100%)
+  background-image: -ms-linear-gradient( 0deg, rgb(54,0,51) 0%, rgb(52,152,219) 100%)
+
+@mixin g2
+  background-image: -moz-linear-gradient( 90deg, rgb(54,0,51) 0%, rgb(52,152,219) 100%)
+  background-image: -webkit-linear-gradient( 90deg, rgb(54,0,51) 0%, rgb(52,152,219) 100%)
+  background-image: -ms-linear-gradient( 90deg, rgb(54,0,51) 0%, rgb(52,152,219) 100%)
+
+@mixin g3
+  background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(255,255,255) 100%)
+  background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(255,255,255) 100%)
+  background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(255,255,255) 100%)
+
+@mixin g4
+  background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(255,255,255) 100%)
+  background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(255,255,255) 100%)
+  background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(255,255,255) 100%)
+// end gradint
+// start fonts
+@mixin font1
+  font-family: 'Open Sans'
+  font-size: 14px
+  font-weight: 400
+  line-height: 28px
+  letter-spacing: 1px
+  text-transform: capitalize
+// end fonts
+// start border
+@mixin br-br
+  border-bottom-right-radius: 5px
+@mixin br-bl
+  border-bottom-left-radius: 5px
+@mixin br-tr
+  border-bottom-right-radius: 5px
+@mixin br-tl
+  border-bottom-left-radius: 5px
+@mixin br
+  border-radius: 5px
+@mixin br-0
+  border-radius: 0px
+// end border
+// start shadow
+@mixin sh1
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05)
+@mixin sh2
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05)
+@mixin sh3
+  box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.14)
+// end shadow
+
+// spacing
+@mixin s1
+  padding-top: 80px
+  padding-bottom: 80px
+// spacing

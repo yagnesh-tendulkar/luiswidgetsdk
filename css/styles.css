@@ -1,0 +1,56 @@
+@media (max-width: 1400px) {
+  #collapsedBot {
+    width: 400px;
+    padding: 10px 0px;
+  }
+}
+@media (min-width: 1400px) {
+  #collapsedBot {
+    width: 450px;
+    padding: 13px 0px;
+  }
+}
+#collapsedBot {
+  position: fixed;
+  bottom: 15px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 13px 13px 0px 0px;
+  font-weight: bold;
+}
+.wc-chatview-panel {
+  border-radius: 13px 13px 0px 0px;
+  background-color: #fff;
+}
+.wc-chatview-panel .wc-message-groups {
+  top: auto !important;
+  bottom: 60px !important;
+  height: 73% !important;
+}
+.wc-chatview-panel hr {
+  border: 1px dashed #ccc;
+}
+.wc-header {
+  cursor: pointer;
+}
+.wc-message svg.wc-message-callout {
+  display: none;
+}
+.wc-message-content {
+  word-break: break-word;
+}
+.wc-message-from-me > .wc-message-content {
+  border-radius: 13px 13px 0px 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.wc-message-from-bot > .wc-message-content {
+  border-radius: 0px 13px 13px 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.wc-console {
+  border-left: 2px;
+  border-right: 2px;
+  border-color: #ddd;
+}
